@@ -239,6 +239,7 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
             if(bmp!=null){
+                imagen=bmp;
                 imageView.setImageBitmap(bmp);
             }
 
